@@ -2,18 +2,19 @@
 <html>
 <head>
 	<title>My website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<!--header -->
 	<header id="header">
 		<!--logo-->
-		<a href="index.html">
-			<img src="img/avatar.jpg" alt="logo">
+		<a id="logo" href="index.html">
+			<img src="img/smile.png" alt="logo">
 			My website
 		</a>
 		<!--main navigation -->
-		<nav>
+		<nav id="main-navigation">
 			<ul>
 				<li><a href="#">Features</a></li>
 				<li><a href="#">Pricing</a></li>
@@ -26,7 +27,7 @@
 	<!--main -->
 	<main id="main">
 		<!--hero section -->
-		<main class="hero ">
+		<main class="hero">
 			<div class="hero-content">
 				<h1 class="hero-title">Making sites look easy</h1>
 				<p>The best and most comprehensive website ever.</p>
@@ -34,7 +35,7 @@
 				<a href="#">Learn more</a>
 				<a href="#">Sign Up</a>
 			</div>
-		</div>
+		</main>
 		<!--features -->
 			<div class="site-section">
 				<div class="section-header">
@@ -57,50 +58,51 @@
 				</div>
 			</div>
 		<!--testimonials -->
-		<div class="site-section">
-			<div class="section-header">
-				<h2>WHAT THE PEOPLE SAY</h2>
-			</div>
+		<div class="site-section site-section-secondary" >
+			<div class="site-section-inside">
+				<div class="section-header">
+					<h2>WHAT THE PEOPLE SAY</h2>
+				</div>
 
-			<div class="testimonial-box">
-				<div class="testimonial-content">
-					Their service is by far the most influential I've ever seen.
+				<div class="testimonial-box">
+					<div class="testimonial-content">
+						Their service is by far the most influential I've ever seen.
+					</div>
+					<div class="testimonial-author">
+						<img src="img/david.png" alt="David East">
+						<h5>David East</h5>
+						<span>King of Firebase</span>
+					</div>
 				</div>
-				<div class="testimonial-author">
-					<img src="img/david.png" alt="David East">
-					<h5>David East</h5>
-					<span>King of Firebase</span>
+
+				<div class="testimonial-box">
+					<div class="testimonial-content">
+						Their service is by far the most influential I've ever seen.
+					</div>
+					<div class="testimonial-author">
+						<img src="img/holly.png" alt="Holly Lloyd">
+						<h5>Holly Lloyd</h5>
+						<span>Queen of Scotch</span>
+					</div>
+				</div>
+
+				<div class="testimonial-box">
+					<div class="testimonial-content">
+						Their service is by far the most influential I've ever seen.
+					</div>
+					<div class="testimonial-author">
+						<img src="img/ryan.png" alt="Ryan Chenkie">
+						<h5>Ryan Chenkie</h5>
+						<span>King of Auth0</span>
+					</div>
 				</div>
 			</div>
-
-			<div class="testimonial-box">
-				<div class="testimonial-content">
-					Their service is by far the most influential I've ever seen.
-				</div>
-				<div class="testimonial-author">
-					<img src="img/holly.png" alt="Holly Lloyd">
-					<h5>Holly Lloyd</h5>
-					<span>Queen of Scotch</span>
-				</div>
-			</div>
-
-			<div class="testimonial-box">
-				<div class="testimonial-content">
-					Their service is by far the most influential I've ever seen.
-				</div>
-				<div class="testimonial-author">
-					<img src="img/ryan.png" alt="Ryan Chenkie">
-					<h5>Ryan Chenkie</h5>
-					<span>King of Auth0</span>
-				</div>
-			</div>
-
 		</div>
 	</main>
 	<!--Footer -->
 	<footer id="footer">
-		<img src= "img/avatar.jpg" alt="footer logo">
-		<span>My Website <br>Copyright $copy; 2016-3010</span>
+		<img src= "img/smile.png" alt="footer logo">
+		<span>My Website <br>Copyright &copy; 2016-3010</span>
 	</footer>
 </body>
 </html>
