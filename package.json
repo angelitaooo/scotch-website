@@ -1,0 +1,24 @@
+{
+  "name": "scotch-website",
+  "version": "1.0.0",
+  "description": "Example website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelitaooo/scotch-website.git"
+  },
+  "keywords": [
+    "responsive",
+    "html",
+    "css"
+  ],
+  "author": "Angela Ordonez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelitaooo/scotch-website/issues"
+  },
+  "homepage": "https://github.com/angelitaooo/scotch-website#readme"
+}
